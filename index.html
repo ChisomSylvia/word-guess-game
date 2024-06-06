@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word Guessing Game</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <main class="main-container">
+    <h2>Guess The Word Game</h2>
+    <p>Here I have a collection of my favourite fruits. See if you can guess any fruit in 5 turns or less. We'll give you a hint of the first alphabet after your first try.</p>
+
+    <section class="content">
+      <label for="guessInput">Enter a word:</label>
+      <input type="text" name="guessInput" id="guessInput"> <br>
+      <input type="button" value="Play" id="guessBtn" class="btn">
+
+      <div id="resultDiv" class="hidden"> 
+        <p id="result"></p>
+        <p id="hint"></p>
+        <p id="guesses"></p>
+      </div>
+    </section>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>
